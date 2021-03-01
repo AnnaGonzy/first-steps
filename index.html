@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Aluraconf</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/sobre.css">
+		<link rel="stylesheet" href="css/palestrantes.css">
+		<link rel="stylesheet" href="css/inscricao.css">
+
+	</head>
+
+	<body>
+		<header class="header">
+			<nav>
+				<div class="caixa">
+					<ul>
+						<li>
+							<a href="#sobre">SOBRE</a>
+						</li>
+						<li>
+							<a href="#palestrantes">PALESTRANTES</a>
+						</li>
+					</ul>
+				</div>
+
+				<div >
+					<section class="painel">
+						<h1>AluraConf</h1>
+						<h2>30maio|Rio</h2>	
+					</section>
+					<section class="botao">
+						<a href="#inscricao">Inscreva-se</a>	
+					</section>	
+				</div>
+			</nav>		
+		</header>
+
+		<main>
+			<div id="sobre" class="sobre">
+				<section class="titulo">
+					<h1>Muito conteúdo: do frontend ao backend</h1>
+					<h2>30 de Maio de 2017 - na Cidade Maravilhosa</h2>
+				</section>
+				
+				<section class="texto">
+					<p>Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolvedor mobile.</p>
+					<p>É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web Mobile, desenvolvimento híbrido, UX, além da parte backend com Rest, Microservices e BigData. O desenvolvedor atualizado vai estar aqui.</p>
+				</section>
+			</div>
+			
+			<div id= palestrantes class="palestrantes">
+				<section>
+					<h1>palestrantes</h1>
+					<h2>Aprenda com palestrantes que são referência no mercado</h2>
+					<ul>
+						<li>
+							<figure><img src="img/palestrantes/placeholder.jpeg" class="foto"></figure>
+							<p class="nome">Flávio Almeida</p>
+							<p class="profissao">Desenvolvedor e instrutor Caelum</p>
+							<p class="descricao">To be or not to be MEAN</p>
+						</li>
+						<li>
+							<figure><img src="img/palestrantes/placeholder.jpeg" class="foto"></figure>
+							<p class="nome">Flávio Almeida</p>
+							<p class="profissao">Desenvolvedor e instrutor Caelum</p>
+							<p class="descricao">To be or not to be MEANTo be or not to be MEANTo be or not to be MEANTo be or not to be MEAN</p>
+						</li>
+						<li>
+							<figure><img src="img/palestrantes/placeholder.jpeg" class="foto"></figure>
+							<p class="nome">Flávio Almeida</p>
+							<p class="profissao">Desenvolvedor e instrutor Caelum</p>
+							<p class="descricao">To be or not to be MEAN</p>
+						</li>
+						<li>
+							<figure><img src="img/palestrantes/placeholder.jpeg" class="foto"></figure>
+							<p class="nome">Flávio Almeida</p>
+							<p class="profissao">Desenvolvedor e instrutor Caelum</p>
+							<p class="descricao">To be or not to be MEAN</p>
+						</li>
+						<li>
+							<figure><img src="img/palestrantes/placeholder.jpeg" class="foto"></figure>
+							<p class="nome">Flávio Almeida</p>
+							<p class="profissao">Desenvolvedor e instrutor Caelum</p>
+							<p class="descricao">To be or not to be MEAN</p>
+						</li>
+						<li>
+							<figure><img src="img/palestrantes/placeholder.jpeg" class="foto"></figure>
+							<p class="nome">Flávio Almeida</p>
+							<p class="profissao">Desenvolvedor e instrutor Caelum</p>
+							<p class="descricao">To be or not to be MEAN</p>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</main>
+
+		<footer id= "inscricao" class="inscricao">
+			<h1>Seus Dados</h1>
+
+			<form>
+				<label for="nome">Nome </label>
+				<input type="text" id="nome" class="input-padrao" required>
+
+				<label for="email">E-mail</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<input type="submit" value="Realizar Inscrição" class="enviar">
+			</form>			
+		</footer>
+		<script src="js/jquery.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+
+</html>

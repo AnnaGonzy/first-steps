@@ -1,0 +1,48 @@
+.inscricao {
+	width: 100%;
+	text-align: center;
+	margin: 1em;
+}
+
+.inscricao h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.8em;
+	color: #FF7F50;
+	margin: 1em 0 0.6em;
+}
+
+.inscricao form {
+	margin: 40px;
+	padding: 0 10px;
+}
+
+.inscricao label {
+	text-align: start;
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 20px 0 20px;
+}
+
+.inscricao .input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px;
+	width: 90%;
+	box-shadow: 1px 1px 10px #48A3A6;
+	border-radius: 5px;
+}
+
+.inscricao .enviar {
+	width:40%;
+    padding: 15px 0;
+    background: #48A3A6;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+}
+
+

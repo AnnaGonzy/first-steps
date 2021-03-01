@@ -1,0 +1,67 @@
+.palestrantes {
+	background-color: #FF7F50;
+	text-align: center;
+	padding: 10px;
+}
+
+.palestrantes h1 {
+	text-transform: uppercase;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 0 0 0.6em;
+}
+
+.palestrantes h2 {
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 0 0 0.4em;
+}
+
+.palestrantes ul {
+	width: 100%;
+}
+
+.palestrantes li {
+	width: 20%;
+	vertical-align: top;
+	display: inline-block;
+	margin: 5px 10px 10px 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #FFFFFF
+}
+
+.palestrantes .foto {
+	margin: 10px 0;
+	width: 80%;
+	border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.palestrantes .nome {
+	font-size: 1.1em;
+	margin-bottom: 0.8em;
+}
+
+.palestrantes .profissao {
+	font-weight: bold;
+	margin-bottom: 0.8em;
+}
+
+.palestrantes .descricao {
+	line-height: 1.2em;
+}
+
+@media screen and (max-width: 480px) {
+	.palestrantes, .palestrantes li  {
+		width: auto;
+	}
+
+	.palestrantes li {
+		display: block;
+	}
+}
